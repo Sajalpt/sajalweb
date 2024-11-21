@@ -43,7 +43,7 @@ function Hom() {
     <div id='sajal1' className='container p-5'>
         <div className='row'>
             <div className='col-md-6'>
-              <h1 data-aos="fade-right" data-aos-delay="1000" id='sajal' style={{fontSize:"80px"}}>Saja<span style={{color:"red"}}>l</span></h1>
+              <h1 data-aos="fade-right" data-aos-delay="1000" id='sajal'>Saja<span style={{color:"red"}}>l</span></h1>
             </div>
             <div id='iconn' className='col-md-6  d-flex justify-content-end'>
            <a href="https://www.instagram.com/sajalpt/?hl=en"><img id='insta' className='ps-3 mt-4' style={{width:"70px"}}   src={Inst}  alt="" /></a>
@@ -68,7 +68,7 @@ function Hom() {
             </div>
             <div  className='col-md-6'>
              <div className='mt-5' style={{ display: 'flex', alignItems: 'center', justifyContent: 'left' }}>
-                <h1 id='web'><span style={{color:"red"}}>W</span>eb Designer <br></br><br /> <span style={{fontSize:"47px"}}><span style={{color:"red"}}>W</span>eb Developer</span></h1><br></br>
+                <h1 id='web'><span style={{color:"red"}}>W</span>eb Designer <br></br><br /> <span id='sajall' ><span style={{color:"red"}}>W</span>eb Developer</span></h1><br></br>
                 </div>
               <div style={{display: 'flex', alignItems: 'center', justifyContent: 'left' }}>
                 <Button id='btn' style={{backgroundColor:"black",width:"150px",height:"80px",fontSize:"25PX",borderRadius:"100px"}} className='mt-5' variant="contained">WORKS</Button>
@@ -104,50 +104,29 @@ As a passionate web designer, I specialize in crafting visually appealing, user-
 <div className='container'>
     <div className='row'>
         <div className='col-2 col-md-2 d-flex align-item-center justify-content-center'>
-        <img id='insta' className='mt-2' style={{width:"80px" ,height:"80px" }} src={Ht} alt="" />
-        
+       
         </div>
         <div className='col-2 col-md-2 d d-flex align-item-center justify-content-center'>
-        <img id='insta' style={{width:"100px" ,height:"100px" }}  src={boot} alt="" />
+        <img id='insta' className='mt-3' style={{width:"80px" ,height:"80px" }} src={boot} alt="" />
 
 </div>
 <div className='col-2 col-md-2 d d-flex align-item-center justify-content-center'>
-<img id='insta' style={{width:"100px",height:"100px" }} src={Rea} alt="" />
+<img id='insta' className='' style={{width:"100px" ,height:"100px" }} src={Rea} alt="" />
 </div>
 <div className='col-2 col-md-2 d d-flex align-item-center justify-content-center'>
-<img id='insta' style={{width:"90px" ,height:"90px" }} src={Gi} alt="" />
+<img id='insta' className='' style={{width:"90px" ,height:"90px" }} src={Gi} alt="" />
 </div>
 <div className='col-2 col-md-2 d d-flex align-item-center justify-content-center'>
-<img id='insta' className='mt-2' style={{width:"80px" ,height:"80px" }} src={css} alt="" />
+<img id='insta' className='mt-2' style={{width:"80px" ,height:"80px" }}  src={css} alt="" />
 
 </div>
 <div className='col-2 col-md-2 d d-flex align-item-center justify-content-center'>
-<img id='insta' className='mt-2' style={{width:"80px" ,height:"80px" }} src={jas} alt="" />
+
 
 </div>
 
     </div>
-    <div className='row'>
-        <div className='col-md-2'>
-        </div>
-        <div className='col-md-2 d-flex align-item-center justify-content-center'>
-       
-
-</div>
-<div className='col-md-2'>
-
-</div>
-<div className='col-md-2'>
-
-</div>
-<div className='col-md-2 d-flex align-item-center justify-content-center'>
-
-</div>
-<div className='col-md-2'>
-
-</div>
-
-    </div>
+  
 
 </div>
 <div className='container'>
@@ -170,12 +149,13 @@ As a passionate web designer, I specialize in crafting visually appealing, user-
 </div>
 
     </div>
-    <div className='row'>
+    <div className='row mt-5'>
         <div className='col-2 col-md-2'>
-
+       
+        
         </div>
-        <div className='col-2 col-md-2'>
-
+        <div className='col-2 col-md-2 d-flex align-item-center justify-content-center'>
+        <img id='insta' className='mt-2' style={{width:"80px" ,height:"80px" }}  src={Ht} alt="" />
 </div>
 <div className='col-2 col-md-2 d-flex align-item-center justify-content-center'>
 <img id='insta' style={{width:"100px" ,height:"100px" }} src={Fig} alt="" />
@@ -185,8 +165,8 @@ As a passionate web designer, I specialize in crafting visually appealing, user-
 <img id='insta' style={{width:"100px" ,height:"100px" }} src={Pho} alt="" />
 
 </div>
-<div className='col-2 col-md-2'>
-
+<div className='col-2 col-md-2 d-flex align-item-center justify-content-center'>
+<img id='insta' className='mt-2' style={{width:"80px" ,height:"80px" }} src={jas} alt="" />
 </div>
 <div className='col-2 col-md-2'>
 
