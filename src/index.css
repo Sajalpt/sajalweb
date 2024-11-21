@@ -4,6 +4,7 @@
   display: inline-block; 
   font-family: "Silkscreen", serif;
   
+  font-size: 80px;
  
   
 }
@@ -30,7 +31,7 @@
 
 #web{
   
-font-size: 50px;
+font-size: 40px;
 font-family: "Overpass Mono", monospace;
 }
 
@@ -40,6 +41,10 @@ font-family: "Overpass Mono", monospace;
 }
 #sajalpic:hover{
   transform: scale(1.1); /* Scale effect on hover */
+}
+
+#sajall{
+  font-family: 47;
 }
 
 #about{
@@ -65,7 +70,12 @@ font-family: "Overpass Mono", monospace;
     transition: color 0s ease, transform 0.3s ease; /* Transition for color and transform */
     display: inline-block; 
     font-family: "Silkscreen", serif;
-    margin-left: 14%;
+    margin-left: 8%;
+    font-size: 80px;
+  }
+
+  #sajall{
+    font-size: 40px;
   }
 
   #iconn{
