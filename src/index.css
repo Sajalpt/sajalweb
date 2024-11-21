@@ -1,0 +1,81 @@
+#sajal{
+  /* font-family: "Yellowtail", cursive; */
+  transition: color 0s ease, transform 0.3s ease; /* Transition for color and transform */
+  display: inline-block; 
+  font-family: "Silkscreen", serif;
+  
+ 
+  
+}
+
+#insta{
+  transition: color 0.3s ease, transform 0.3s ease; /* Transition for color and transform */
+  display: inline-block; 
+}
+#insta:hover{
+
+  color: red; /* Color on hover (tomato) */
+  transform: scale(1.5); /* Scale effect on hover */
+}
+
+#sajal:hover{
+
+  color: #ff6347; /* Color on hover (tomato) */
+  transform: scale(1.1); /* Scale effect on hover */
+}
+
+#sajal1{
+  border-bottom: 10px solid #000000
+}
+
+#web{
+  
+font-size: 50px;
+font-family: "Overpass Mono", monospace;
+}
+
+#sajalpic{
+  transition: color 0.3s ease, transform 0.3s ease; /* Transition for color and transform */
+  display: inline-block; 
+}
+#sajalpic:hover{
+  transform: scale(1.1); /* Scale effect on hover */
+}
+
+#about{
+
+  font-family: "Dongle", sans-serif;
+  font-size: 70px;
+}
+
+#about3{
+  font-family: "Dongle", sans-serif;
+  font-size: 40px;
+
+}
+
+#btn1{
+  font-family: "Dongle", sans-serif;
+  letter-spacing: 20px;
+}
+
+@media(max-width:480px){
+  #sajal{
+    /* font-family: "Yellowtail", cursive; */
+    transition: color 0s ease, transform 0.3s ease; /* Transition for color and transform */
+    display: inline-block; 
+    font-family: "Silkscreen", serif;
+    margin-left: 14%;
+  }
+
+  #iconn{
+    margin-left: -10%;
+    
+  }
+
+  #btn{
+
+    margin-left: 30%;
+  }
+
+}
