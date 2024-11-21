@@ -70,12 +70,12 @@ font-family: "Overpass Mono", monospace;
     transition: color 0s ease, transform 0.3s ease; /* Transition for color and transform */
     display: inline-block; 
     font-family: "Silkscreen", serif;
-    margin-left: 8%;
+    margin-left: 5%;
     font-size: 80px;
   }
 
   #sajall{
-    font-size: 40px;
+    font-size: 38px;
   }
 
   #iconn{
@@ -85,7 +85,7 @@ font-family: "Overpass Mono", monospace;
 
   #btn{
 
-    margin-left: 30%;
+    margin-left: 29%;
   }
 
 }
